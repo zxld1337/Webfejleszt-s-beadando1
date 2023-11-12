@@ -1,0 +1,98 @@
+/* sakk css */
+
+th,
+td {
+    text-align: center;
+}
+
+.chessboard {
+    height: 90vh;
+    width: 50vw;
+    margin: auto;
+}
+
+
+.chessboard table {
+    border: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+.chessboard td {
+    /* border: 1px solid #000; */
+    height: 40px;
+    width: 40px;
+}
+
+.chessboard tr {
+    font-size: 26px;
+}
+
+.white-side {
+    color: white;
+    text-shadow:
+    1px  1px 2px black,
+    1px -1px 2px black,
+   -1px  1px 2px black,
+   -1px -1px 2px black;
+}
+
+.black-side {
+    color: black;
+    text-shadow:
+    1px  1px 2px white,
+    1px -1px 2px white,
+   -1px  1px 2px white,
+   -1px -1px 2px white;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.chess_header {
+    background-color: rgb(65, 33, 10);
+}
+
+.chess_header {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border: 0;
+}
+
+.side {
+    border-left: 12px solid rgb(177, 131, 97);
+    border-right: 12px solid rgb(177, 131, 97);
+}
+
+.top-bottom {
+    border-top: 12px solid rgb(177, 131, 97);
+    border-bottom: 12px solid rgb(177, 131, 97);
+}
+
+.corner-bl {
+    border-left: 12px solid rgb(177, 131, 97); 
+    border-bottom: 12px solid rgb(177, 131, 97);
+}
+
+.corner-br {
+    border-right: 12px solid rgb(177, 131, 97); 
+    border-bottom: 12px solid rgb(177, 131, 97);
+}
+
+.corner-tl {
+    border-left: 12px solid rgb(177, 131, 97); 
+    border-top: 12px solid rgb(177, 131, 97);
+}
+
+.corner-tr {
+    border-right: 12px solid rgb(177, 131, 97); 
+    border-top: 12px solid rgb(177, 131, 97);
+}

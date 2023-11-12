@@ -1,0 +1,16 @@
+/* Video css */
+
+.video-frame {    
+    display: flex;
+    flex-flow: column; 
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+iframe {
+    margin: auto;
+}
+
+.video-title{
+   margin: auto
+}

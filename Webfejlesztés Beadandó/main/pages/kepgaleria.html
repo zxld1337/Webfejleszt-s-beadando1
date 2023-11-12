@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/kepgaleria.css">
+  <title>Beadandó</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Silkó Levente</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="oneletrajz.html">Önéletrajz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="orarend.html">Órarend</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="naptar.html">Naptár</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="kepgaleria.html">Képgaléria</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Videógyűjtemény
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="video1.html">Oldal 1</a></li>
+                <li><a class="dropdown-item" href="video2.html">Oldal 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sakktabla.html">Sakktábla</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="main-container" id="main">
+
+      <div class="container mt-5">
+        <h1 class="text-center mb-4 title">Képgaléria kategoriák</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="image-container">
+              <a href="#audi">
+                <img src="../imgs/a3_tumb.jpg" alt="Image 1">
+                <div class="image-text">
+                  <h2>Audi A3 generációk</h2>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="image-container">
+              <a href="#allatok">
+                <img src="../imgs/a_tumb.jpg" alt="Image 2" href="#allatok">
+                <div class="image-text">
+                  <h2>Érdekes állatok</h2>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5 content-block">
+        <select id="audi" style="visibility: hidden;"></select>
+        <h1>Audi A3 generációk</h1>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery/a3_1.jpg" class="card-img-top" alt="Card Image 1">
+              <div class="card-body">
+                <h5 class="card-title">A3 8L</h5>
+                <p class="card-text">1996 – 2003</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery/a3_2.jpg" class="card-img-top" alt="Card Image 2">
+              <div class="card-body">
+                <h5 class="card-title">A3 8P</h5>
+                <p class="card-text">2003 - 2012</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery/a3_3.jpg" class="card-img-top" alt="Card Image 3">
+              <div class="card-body">
+                <h5 class="card-title">A3 8P FACELIFT</h5>
+                <p class="card-text"> 2008 - 2012</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery/a3_4.jpg" class="card-img-top" alt="Card Image 4">
+              <div class="card-body">
+                <h5 class="card-title">A3 8V</h5>
+                <p class="card-text">2013 - 2020</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery/a3_5.jpg" class="card-img-top" alt="Card Image 5">
+              <div class="card-body">
+                <h5 class="card-title">A3 8V SEDAN</h5>
+                <p class="card-text">2013 - 2020</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery/a3_6.jpg" class="card-img-top" alt="Card Image 5">
+              <div class="card-body">
+                <h5 class="card-title">A3 8V CABRIO</h5>
+                <p class="card-text">2013 - 2020</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery/a3_7.jpg" class="card-img-top" alt="Card Image 5">
+              <div class="card-body">
+                <h5 class="card-title">A3 8Y</h5>
+                <p class="card-text">2020 - </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery/a3_8.jpg" class="card-img-top" alt="Card Image 5">
+              <div class="card-body">
+                <h5 class="card-title">A3 8Y SEDAN</h5>
+                <p class="card-text">2020 - </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery/a3_9.jpg" class="card-img-top" alt="Card Image 5">
+              <div class="card-body">
+                <h5 class="card-title">RS3 8Y HATCHBACK</h5>
+                <p class="card-text">A3 legsportosabb gyári változata.<br> Ferdehátú verzióban</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery/a3_10.jpg" class="card-img-top" alt="Card Image 5">
+              <div class="card-body">
+                <h5 class="card-title">RS3 8Y SEDAN</h5>
+                <p class="card-text">A3 legsportosabb gyári változata.<br> Sedan verzióban</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="#">
+            <button type="button" class="btn btn-outline-dark">Oldal tetejére</button>
+          </a>
+          
+
+        </div>
+      </div>
+
+
+      <div class="container mt-5 content-block animal-block">
+        <select id="allatok" style="visibility: hidden;"></select>
+        <h1>Érdekes állatok</h1>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <div class="card-img">
+                <img src="../imgs/gallery2/a1.jpg" class="card-img-top" alt="Card Image 1">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Yeti rák.</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery2/a2.jpg" class="card-img-top" alt="Card Image 2">
+              <div class="card-body">
+                <h5 class="card-title">Tüskés ördög</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery2/a3.jpg" class="card-img-top" alt="Card Image 3">
+              <div class="card-body">
+                <h5 class="card-title">Sáskarák</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery2/a4.jpg" class="card-img-top" alt="Card Image 4">
+              <div class="card-body">
+                <h5 class="card-title">Panda-hangya</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery2/a5.jpg" class="card-img-top" alt="Card Image 5">
+              <div class="card-body">
+                <h5 class="card-title">Pacahal</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery2/a6.jpg" class="card-img-top" alt="Card Image 5">
+              <div class="card-body">
+                <h5 class="card-title">Kaliforniai uszkárlepke</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery2/a7.jpg" class="card-img-top" alt="Card Image 5">
+              <div class="card-body">
+                <h5 class="card-title">Kék papagájhal</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery2/a8.jpg" class="card-img-top" alt="Card Image 5">
+              <div class="card-body">
+                <h5 class="card-title">scotoplane</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <img src="../imgs/gallery2/a9.jpg" class="card-img-top" alt="Card Image 5">
+              <div class="card-body">
+                <h5 class="card-title">Kameruni horror béka</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 mb-3">
+            <div class="card img-tap">
+              <div class="card-img">
+                <img src="../imgs/gallery2/a10.jpg" class="card-img-top" alt="Card Image 5">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Kék sárkány</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            <button type="button" class="btn btn-outline-dark">Oldal tetejére</button>
+          </a>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </main>
+
+  <footer></footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

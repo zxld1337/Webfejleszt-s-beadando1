@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+main {
+    display: flex;
+}
+
+.main-container {
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 100%;
+    background-color: rgb(169, 228, 213);
+}
+
+.navbar {
+    border-bottom: 1px solid black;
+}
